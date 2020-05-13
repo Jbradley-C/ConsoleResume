@@ -3,13 +3,13 @@ let nameAllCaps = 'Jason Bradley Chapman'.toUpperCase();
 
 //function for name, career and discription
 function aboutMe(myName, myJob, myDescription) {
-	console.log('Name: ' + myName);
-	console.log('Career: ' + myJob);
-	console.log('Description: ' + myDescription + '.');
+	console.log("Name: " + myName);
+	console.log("Career: " + myJob);
+	console.log("Description: " + myDescription + ".");
 }
 
 // Calls function to display my basic info
-aboutMe(nameAllCaps, 'Web Development Student', 'Father of four trying to make a way');
+aboutMe(nameAllCaps, "Web Development Student", "Father of four trying to make a way");
 
 //Empty console log for line spacing
 console.log('');
@@ -43,10 +43,10 @@ console.log('');
 
 // Define function to list skills and check for "coolness"
 function displaySkill(mySkill, isCool) {
-    if(isCool == true) {
+    if(isCool) {
     console.log("* BAM!: " + mySkill);
 
-}else (isCool == false); {
+}else  {
     console.log("* " + mySkill);
 }
 }
@@ -63,4 +63,4 @@ displaySkill("Drawing", true);
 
 
 
-
+ 
